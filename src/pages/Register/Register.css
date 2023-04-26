@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+
+  padding: 0;
+  border-radius: 3px;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.button{
+  cursor: pointer;
+}
+
+body {
+  height: 100%;
+  background-color: #000bff;
+}
+
+.Registercontainer {
+  max-width: 800px;
+  width: 100%;
+  margin: 30px auto 0;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.RegisterSubContainer {
+  background: rgb(249, 249, 252);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+}
+.RegisterTitle {
+  display: flex;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+  justify-content: center;
+  background-color: rgb(228, 234, 234);
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.RegisterTitle > P {
+  padding: 30px;
+}
+
+.RegisterForm {
+  padding: 20px;
+}
+
+.RegisterFullText {
+  display: flex;
+}
+.RegisterFormItem {
+  margin-bottom: 25px;
+  position: relative;
+}
+.RegisterFullText .RegisterFormItem {
+  width: 50%;
+}
+
+.input-field {
+  font-size: 16px;
+  padding: 10px;
+  color: black;
+  font-weight: normal;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.input-field:focus::placeholder {
+  font-size: 10px;
+  transform: translate(-5px, -20px);
+  transition: all 0.3s ease-in-out;
+}
+.RegisterFullText .RegisterFormItem:first-child {
+  margin-right: 4%;
+}
+
+.RegisterFormItem input[type="text"] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 14px;
+  font-weight: lighter;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  outline: none;
+}
+.RegisterFormItem input[type="text"]:focus {
+  outline: 2px solid rgb(147, 191, 235);
+}
+label {
+  font-size: 18px;
+  font-weight: 300 !important;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 8px;
+  background-color: #1598d4;
+  border: 1px solid #1598d4;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 300 !important;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: #000bff;
+}
+
+.LoginNav {
+  background-color: rgb(237, 237, 237);
+  color: #1598d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgb(177, 177, 177);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.LoginNav > p {
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 300 !important;
+}
+
+.LoginNav > p:hover {
+  color: #000bff;
+  text-decoration: underline;
+}
+.Dashboard_Copy_Term {
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 0;
+  margin-top: -8.8px;
+}
+
+.DashboardCopy {
+  color: gray;
+  font-size: 14px;
+  padding: 10px;
+}
+.DashboardTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1598d4;
+}
+.DashboardTerm > p {
+  font-size: 15px;
+  font-weight: 300 !important;
+}
+.DashboardTerm > p:hover {
+  color: #000bff;
+  text-decoration: underline;
+}
+
+@media (min-width: 150px) and (max-width: 310px) {
+  .RegisterFormItem input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 8px;
+    font-weight: lighter;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    outline: none;
+  }
+  .RegisterFullText {
+    display: block;
+  }
+
+  .RegisterFullText .RegisterFormItem {
+    width: 100%;
+  }
+
+  .input-field:focus::placeholder {
+    font-size: 8px;
+    transform: translate(-5px, -10px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  label {
+    font-size: 5px;
+    color: black;
+    font-weight: 300;
+  }
+
+  .DashboardCopy {
+    font-size: 10px;
+  }
+  .DashboardTerm > p {
+    font-size: 10px;
+  }
+  input[type="button"] {
+    font-size: 10px;
+  }
+}

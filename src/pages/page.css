@@ -1,0 +1,138 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.Error401 {
+  padding: 30px;
+}
+
+.ErrorType401 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+  font-weight: 100 !important;
+}
+
+.ErrorText401 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 100 !important;
+  margin-bottom: 20px;
+}
+
+.ErrorMessage401 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 350 !important;
+}
+
+.dashNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.dashNav:hover {
+  color: #02087e;
+}
+.text {
+  margin-left: 5px;
+}
+
+.Dashboard_Copy_Term {
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.DashboardCopy {
+  color: gray;
+  font-size: 14px;
+  padding: 10px;
+}
+.DashboardTerm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1598d4;
+  padding: 10px;
+}
+.DashboardTerm > p {
+  font-size: 15px;
+  font-weight: 300 !important;
+}
+.DashboardTerm > p:hover {
+  color: #000bff;
+  text-decoration: underline;
+}
+
+@media (min-width: 150px) and (max-width: 310px) {
+  .DashboardCopy {
+    font-size: 10px;
+  }
+  .DashboardTerm > p {
+    font-size: 10px;
+  }
+}
+
+/* Error Page 500 */
+
+.Error500 {
+  padding: 30px;
+  /* margin-top: 100px; */
+}
+
+.ErrorType500 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 100 !important;
+  margin-bottom: 20px;
+}
+
+.ErrorText500 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 100 !important;
+  margin-bottom: 20px;
+}
+
+/* Error 404 Page */
+
+.pageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img404 {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.Text404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 100 !important;
+}
